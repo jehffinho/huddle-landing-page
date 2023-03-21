@@ -1,0 +1,92 @@
+html{
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+    background: url(../images/bg-desktop.svg) center center no-repeat;
+    background-color: hsl(257, 40%, 49%);
+    
+ 
+}
+
+.container img{
+   max-width: 40vw;
+}
+
+.logo{
+    padding: 35px 45px;
+    width: 220px;
+}
+
+.container{
+    display: flex; 
+    margin-left: 40px;
+    flex-wrap: wrap;
+    
+}
+
+.descricao{
+    flex-direction: column;
+    margin: 25px ;
+    color: #ffffff;
+    
+   
+}
+
+.descricao-destaque{
+    font-size: 30px;
+    font-weight: 600;
+    
+    
+    
+}
+
+.descricao-texto{
+    max-width: 370px;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 15px 0px;
+    
+}
+
+
+.register{
+    margin-top: 35px;
+}
+.register a{
+    padding: 8px 38px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.register a:hover{
+    color: #ffffff;
+    background-color:hsl(300, 69%, 71%);
+}
+
+.social{
+display: flex;
+   justify-content: flex-end;
+   margin: 20px;
+       
+}
+
+.social a{
+    display: flex;
+    color: #ffffff;
+    transition: 0.3s;
+    margin: 10px;
+    padding: 6px;
+    border: solid 1px;
+    border-radius: 50%;
+    
+}
+
+.social a:hover{
+    
+    color: hsl(300, 69%, 71%);
+    
+}
+

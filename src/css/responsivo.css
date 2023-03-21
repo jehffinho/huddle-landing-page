@@ -1,0 +1,23 @@
+@media(max-width: 425px){
+    body{
+      background: url(../images/bg-mobile.svg) center center no-repeat;
+      background-color:  hsl(257, 40%, 49%);
+      background-size: cover;
+      
+      text-align: center;
+      
+    }
+
+
+   .container{
+        
+        justify-content: center;
+        align-items: center;
+    }
+
+    .social{
+        justify-content: center;
+    }
+    
+
+}
