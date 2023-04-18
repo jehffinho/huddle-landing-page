@@ -6,14 +6,14 @@ body {
     background: url(../images/bg-desktop.svg) center center no-repeat;
     background-color: hsl(257, 40%, 49%);
     background-size: cover;
-    min-height: 100vh;
-    max-width: 1440px;
+    max-height: 100vh;
+    
 
 
 }
 
 .container .imagem-principal {
-    max-width: 100vh;
+    width: 100vh;
 }
 
 .logo {
@@ -25,6 +25,7 @@ body {
     display: flex;
     margin-left: 40px;
     flex-wrap: wrap;
+    
 
 }
 
